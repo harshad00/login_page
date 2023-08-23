@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.form {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 2rem;
+    position: relative;
+    top: -60px;
+    left: 0px;
+}
+
+.myform {
+    width: 30rem;
+    height: 35rem;
+    border: 2px solid black;
+    border-radius: 5px 5px 30px 5px;
+    /* background-color: red; */
+    box-shadow: 20px 20px 0px 0px rgb(235, 235, 59);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(89 67 236);
+    background: url('pic/bg01.webp');
+}
+
+
+.style_col {
+    width: 20rem;
+    margin-top: 10px;
+
+}
+
+.style_btn {
+    width: 4rem;
+    height: 1.6rem;
+    margin-top: 1rem;
+    font-size: 1en;
+    /* animation: btn .2s linear; */
+    position: relative;
+    top: 0px;
+    left: 0px;
+    transition: all 1s;
+    border: 2px solid white;
+    border-radius: 5px;
+
+    padding: 2px;
+}
